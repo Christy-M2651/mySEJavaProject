@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">My CRA Application</string>
+    <string name="imgLogo">Logo</string>
+    <string name="incomeTaxTitle">Income Tax and Benefit Return - T1 General</string>
+    <string name="IdentificationTitle">Identification</string>
+    <string name="FirstName">First name and initial</string>
+    <string name="LastName">Last name</string>
+    <string name="Address">Mailing address: Apt No. - Street No. Street name</string>
+    <string name="NoHint"> </string>
+    <string name="City">City</string>
+    <string name="Prov">Province/Territory</string>
+    <string name="Postal">Postal Code</string>
+    <string name="email">Email Address</string>
+    <string name="InfoTitle">Information about you</string>
+    <string name="SIN">Enter your social insurance number (SIN):</string>
+    <string name="DOB">Date of birth:</string>
+    <string name="language">Your language of correspondence:</string>
+    <string name="MaritalStatus">Tick the box that applies to your marital status</string>
+    <string name="TotalIncomeTitle">Total income</string>
+    <string name="TotalIncomeInfo">As a resident of Canada, you have to report your income from all sources both inside and outside Canada.</string>
+    <string name="EmploymentIncome">Employment Income</string>
+    <string name="NetIncome">Net Income</string>
+    <string name="PensionPlan">Registered pension plan deduction</string>
+    <string name="DeductionCCP">Deduction for CPP or QPP enhanced contributions on employment income</string>
+    <string name="TaxableIncome">Taxable income</string>
+    <string name="TaxableIncomeSubTitle">This is your taxable income.</string>
+    <string name="AreCanadian">Are you a Canadian citizen?</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="T4Title">T4 - Employment Income</string>
+    <string name="EmployersTitle">Employer\'s Name</string>
+    <string name="EmpCPP">CPP Contributions</string>
+    <string name="EmpEI">EI Premiums</string>
+    <string name="EIEarning">EI Insurable Earnings</string>
+    <string name="CPPEarning">CPP/QPP Pensionable Earnings</string>
+    <string name="IncomeTaxDeducted">Income Tax Deducted</string>
+    <string name="Deductions">Deductions</string>
+    <string name="DeductionInfo">Deductions Type</string>
+    <string name="DeductionsAmount">Deductions amount</string>
+    <string name="Review">Review</string>
+    <string name="CanadaWorkersBenefit">Do you want to claim the Canada workers benefit?</string>
+    <string name="SubmitBtn">Submit</string>
+    <string name="home">Home</string>
+    <string name="account">Account</string>
+    <string name="CERBApplication">CERB Application</string>
+    <string name="logout">Logout</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="from">From:</string>
+    <string name="subject">Subject:</string>
+    <string name="message">Message:</string>
+    <string name="send">SEND</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="x">X</string>
+    <string name="select_all_the_eligibility_criteria_that_apply_to_you">Select all the eligibility criteria that apply to you:</string>
+    <string name="you_have_not_applied_for_the_canada_emergency_response_benefit_cerb_or_employment_insurance_ei_benefits_from_service_canada">You have not applied for the Canada Emergency Response Benefit (CERB) or Employment Insurance (EI) benefits from Service Canada.</string>
+    <string name="you_reside_in_canada">You reside in Canada.</string>
+    <string name="you_are_15_years_of_age_or_older">You are 15 years of age or older.</string>
+    <string name="you_have_not_quit_your_job_voluntarily">You have not quit your job voluntarily.</string>
+    <string name="you_have_earned_a_minimum_of_5_000_income_within_the_last_12_months">You have earned a minimum of $5,000 income within the last 12 months.</string>
+    <string name="by_submitting_you_certify_that_you_meet_all_the_requirements_set_out_above_and_you_understand_that_you_must_repay_any_payment_to_which_you_are_not_entitled">By submitting, you certify that you meet all the requirements set out above and you understand that you must repay any payment to which you are not entitled.</string>
+    <string name="download">Download</string>
+    <string name="married">Married</string>
+    <string name="living_common_law">Living common-law</string>
+    <string name="widowed">Widowed</string>
+    <string name="divorced">Divorced</string>
+    <string name="separated">Separated</string>
+    <string name="single">Single</string>
+    <string name="next">Next</string>
+    <string name="province_of_employment">Province of employment</string>
+    <string name="cpp_contributions">CPP Contributions</string>
+    <string name="ei_premiums">EI Premiums</string>
+    <string name="the_canada_workers_benefit_cwb_was_designed_by_the_federal_and_provincial_governments_to_encourage_and_reward_low_income_families_and_individuals_in_the_workforce">The Canada workers benefit (CWB) was designed by the federal and provincial governments to encourage and reward low‐income families and individuals in the workforce.</string>
+    <string name="no">No</string>
+    <string name="social_insurance_number">Social Insurance Number</string>
+    <string name="full_name">Full Name</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="HintDOB">dd/mm/yy</string>
+    <string name="select_date">Select Date</string>
+    <string name="thank_you_for_using">Thank you for using My CRA Application!</string>
+    <string name="your_application_is_in_process">Your application is in process, this should take few moments. Just relax and we will do your hard work for you.</string>
+    <string name="confetti_gif">confetti gif</string>
+    <string-array name="ProvTerr">
+        <item>AB - Alberta</item>
+        <item>BC - British Columbia</item>
+        <item>MB - Manitoba</item>
+        <item>NB - New Brunswick</item>
+        <item>NL - Newfoundland and Labrador</item>
+        <item>NS - Nova Scotia</item>
+        <item>NT - Northwest Territories</item>
+        <item>NU - Nunavut</item>
+        <item>ON - Ontario</item>
+        <item>PE - Prince Edward Island</item>
+        <item>QC - Quebec</item>
+        <item>SK - Saskatchewan</item>
+        <item>YT - Yukon</item>
+    </string-array>
+    <string-array name="lang">
+        <item>English</item>
+        <item>Français</item>
+    </string-array>
+
+</resources>

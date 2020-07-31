@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".T1TaxForm">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@+id/txtTitle5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/incomeTaxTitle"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/FirstName" />
+
+            <EditText
+                android:id="@+id/t1FName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/NoHint"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/LastName" />
+
+            <EditText
+                android:id="@+id/t1LName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/NoHint"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/Address" />
+
+            <EditText
+                android:id="@+id/t1Address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/NoHint"
+                android:inputType="textLongMessage" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/City" />
+
+            <EditText
+                android:id="@+id/t1City"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/NoHint"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/Prov" />
+
+            <Spinner
+                android:id="@+id/t1Province"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/ProvTerr" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/Postal" />
+
+            <EditText
+                android:id="@+id/t1PostalCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/NoHint"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/email" />
+
+            <EditText
+                android:id="@+id/t1Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/NoHint"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/SIN" />
+
+            <EditText
+                android:id="@+id/t1SIN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/NoHint"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/DOB" />
+
+            <Button
+                android:id="@+id/btnDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:text="@string/select_date" />
+
+            <TextView
+                android:id="@+id/t1DOB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="4dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/language" />
+
+            <Spinner
+                android:id="@+id/t1Lang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/lang" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/MaritalStatus" />
+
+            <CheckBox
+                android:id="@+id/t1StatMarried"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/married" />
+
+            <CheckBox
+                android:id="@+id/t1StatCommonLaw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/living_common_law" />
+
+            <CheckBox
+                android:id="@+id/t1StatWidowed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/widowed" />
+
+            <CheckBox
+                android:id="@+id/t1StatDivorced"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/divorced" />
+
+            <CheckBox
+                android:id="@+id/t1StatSeparated"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/separated" />
+
+            <CheckBox
+                android:id="@+id/t1StatSingle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/single" />
+
+            <Button
+                android:id="@+id/t1Part1btnNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:text="@string/next" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
